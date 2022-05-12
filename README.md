@@ -15,7 +15,7 @@ Para executar a automação da API feita em Rest Assured:
 Para executar a automação da pagina Web:
   - Adicione o chromedriver na pasta "C:\drivers" com o nome de "chromedriver.exe"
     OU
-    Altere a variavel caminhoChromeDriver para o caminho do "chromedriver.exe" no arquivo "...\CasoWeb\test\java\Teste_Seletores.java" 
+    Altere a variavel caminhoChromeDriver para o caminho do "chromedriver.exe" no arquivo "...\CasoWeb\src\main\java\DriverFactory.java"
   - Abra o CMD como administrador
   - Vá até a pasta raiz do projeto "(caminha da máquina).../CasoWeb" pelo CMD
   - Execute o comando "mvn clean install"
